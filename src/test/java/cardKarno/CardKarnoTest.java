@@ -2,8 +2,6 @@ package cardKarno;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class CardKarnoTest {
     public CardKarno cardKarno;
     @Test
@@ -31,7 +29,7 @@ public class CardKarnoTest {
             }
             System.out.println("\n");
         }
-        cardKarno.karnoTableBuilder(truthTable);
+        cardKarno.getKarnoTable(truthTable);
 
 
     }
